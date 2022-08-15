@@ -1,9 +1,11 @@
 import React from 'react';
+import './App.css';
+import BoardComponent from './components/BoardComponent';
 
 const App = () => {
   return (
-    <div>
-      Hello!
+    <div className="app">
+      <BoardComponent/>
     </div>
   );
 }
