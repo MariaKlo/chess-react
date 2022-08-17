@@ -17,4 +17,11 @@ export class Board {
             this.cells.push(row);
         }
     }
+    public getCell(x: number, y: number) {
+        return this.cells[y][x];
+    }
+
+    public addFigures() {
+
+    }
 }
