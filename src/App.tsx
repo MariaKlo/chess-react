@@ -19,9 +19,8 @@ const App = () => {
   return (
     <div className="app">
       <BoardComponent
-      board={board}
-      setBoard={setBoard}
-      />
+        board={board}
+        setBoard={setBoard} />
     </div>
   );
 }

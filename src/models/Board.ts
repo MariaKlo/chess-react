@@ -9,6 +9,7 @@ import { Rook } from './figures/Rook';
 
 export class Board {
     cells: Cell[][] = [];
+  static cells: any;
 
     public initCells() {
         for (let i = 0; i < 8; i++) {
